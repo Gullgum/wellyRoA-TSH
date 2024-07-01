@@ -1,0 +1,11 @@
+{
+  "assets": {
+    "default": {},
+    "roa": {
+      "all_settings": "https://github.com/joaorb64/TournamentStreamHelper/wiki/Layout-Javascript-editing",
+      "asset_key": "costume",
+      "custom_center": [0.6, 0.5],
+      "scale_fill_x": true
+    }
+  }
+}
