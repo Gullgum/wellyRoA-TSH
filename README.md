@@ -1,11 +1,11 @@
 # Wellington Rivals of Aether Stream Overlay for TSH
 
+Works for Rivals 1 and Rivals 2!
+
 Place scoreboard_wellyRoA into TSH's `layout` folder and you're good to go.
 
 Updated for TSH v5.8
 Eyesight config should be all fine.
-
-Supports Rivals 2 characters, but it might not look as good with the Rivals 2 UI. Make sure you have the character _renders_ asset pack downloaded.
 
 Feel free to message me on discord (@Gullgum) if you have questions/issues!
 
