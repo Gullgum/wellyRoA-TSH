@@ -3,15 +3,15 @@
     <meta charset="utf-8" />
     <script src="../include/globals.js"></script>
     <link rel="stylesheet" href="../main.css" />
-    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./css/index__roa1_online.css" />
   </head>
   <body>
-    <div
+    <!-- <div
     class="mask"
     style="
       position: relative;
       height: 300px;
-      top: 0;
+      top: 100px;
       left: 0;
       overflow: hidden;
     "
@@ -23,7 +23,7 @@
           <div class="phase"></div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div class="singles">
       <div class="middle_container">
@@ -37,9 +37,14 @@
           <div class="flagcountry"></div>
           <div class="flagstate"></div>
         </div>
-        <div class="below_name">
+
+        <div id="t1_belowname" class="below_name">
+          <div class="below_name txtBg t1"></div>
           <div class="pronoun"></div>
           <div class="seed"></div>
+        </div>
+        <div id="p1CharaMask" class="p1 charMask">
+          <div class="p1 character"></div>
         </div>
         <div class="score"></div>
         <div class="sponsor-container"></div>
@@ -53,9 +58,14 @@
           <div class="flagcountry"></div>
           <div class="flagstate"></div>
         </div>
-        <div class="below_name">
+
+        <div id="t2_belowname" class="below_name">
+          <div class="below_name txtBg t2 flipBack"></div>
           <div class="pronoun"></div>
           <div class="seed"></div>
+        </div>
+        <div id="p2CharaMask" class="p2 charMask flipBack">
+            <div class="p2 character"></div>
         </div>
         <div class="score"></div>
         <div class="sponsor-container"></div>
@@ -63,7 +73,6 @@
         <div class="bg"><div></div></div>
       </div>
     </div>
-    <div class="com_container"></div>
 
     <script src="index.js"></script>
   </body>
